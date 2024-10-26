@@ -4,6 +4,7 @@
     </IfModule>
 
     RewriteEngine On
+    RewriteBase /snipe-it
 
     # Needed for https://letsencrypt.org/ certificates.
     RewriteRule ^\.well-known/acme-challenge/ - [L]
